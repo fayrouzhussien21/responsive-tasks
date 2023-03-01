@@ -1,0 +1,28 @@
+body
+{
+    display: flex;
+    justify-content: center;
+
+}
+.maincontainer
+{
+    display: flex;
+    border: 5px solid black;
+    width:50vw;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.smallcontainer
+{
+    border: 5px solid rgb(249, 111, 6);
+    width:5vw;
+    height: 5vh;
+    display: flex;
+}
+.smallcontainer>p{
+    margin: 0px;
+    font-size: 2vmin;
+}

@@ -1,0 +1,134 @@
+<!-- * html5 version -->
+<!DOCTYPE html>
+<!-- * root element==> language -->
+<html lang="en">
+  <head>
+    <!-- * encoding  -->
+    <meta charset="UTF-8" />
+    <!-- * latest version edge  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- * website width & zoom 100% -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        background-color: aqua;
+        display: flex;
+        /* flex-direction: row-reverse; */
+        /* flex-wrap: wrap; */
+        /* flex-flow: row wrap; */
+        /* flex-direction: column;
+        height: 700px; */
+        /* justify-content: flex-start; */
+        /* height: 700px;
+         align-items: baseline; */
+         /* align-content: space-between;
+         height: 700px;*/
+         /* flex-wrap: wrap; 
+         gap: 10px 70px; */
+         /* flex-direction: column;
+         height: 700px; */
+         /* width: 150px; */
+         /* flex-direction: column; */
+         /* height: 700px; */
+         align-items: center;
+
+      }
+      .container > div {
+        background-color: blanchedalmond;
+        margin: 10px;
+        padding: 10px;
+        font-size: 30px;
+        /* width: 150px; */
+        /* flex-shrink: 0; */
+      }
+      .child1{
+        /* font-size: 50px; */
+        /* height: 200px; */
+        order: 1;
+        /* flex-grow: 4; */
+        align-self: end;
+      }
+      .child3{
+        /* font-size: 30px; */
+        order: 1;
+        /* flex-grow: 1; */
+        /* flex-shrink: 0; */
+        /* flex-basis: 300px; */
+        /* width: 300px; */
+      }
+
+      /* media queries */
+      /* 0px - 500.999px */
+      @media (max-width:500.999px){
+          body{
+            background-color: antiquewhite;
+          }
+          .container{
+            flex-direction: column;
+          }
+          span{
+            background-color: aquamarine;
+          }
+      }
+      @media (min-width:501px) and (max-width:767.999px){
+        body{
+            background-color: blue;
+        }
+      }
+      @media (min-width:768px) and (max-width:1199.999px){
+        body{
+            background-color: rgb(39, 227, 36);
+        }
+      }
+      @media (min-width:1200px){
+        body{
+            background-color: brown;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="child1">1</div>
+        <div class="child2">2</div>
+        <div class="child3">3</div>
+      <!-- <div class="child1">1</div>
+      <div class="child2">2</div>
+      <div class="child3">3</div>
+      <div class="child1">1</div>
+      <div class="child2">2</div>
+      <div class="child3">3</div>
+      <div class="child1">1</div>
+      <div class="child2">2</div>
+      <div class="child3">3</div>
+      <div class="child1">1</div>
+      <div class="child2">2</div>
+      <div class="child3">3</div>
+      <div class="child1">1</div>
+      <div class="child2">2</div>
+      <div class="child3">3</div>
+      <div class="child1">1</div>
+      <div class="child2">2</div>
+      <div class="child3">3</div>
+      <div class="child1">1</div>
+      <div class="child2">2</div>
+      <div class="child3">3</div>
+      <div class="child1">1</div>
+      <div class="child2">2</div>
+      <div class="child3">3</div>
+      <div class="child1">1</div>
+      <div class="child2">2</div>
+      <div class="child3">3</div>
+      <div class="child1">1</div>
+      <div class="child2">2</div>
+      <div class="child3">3</div> -->
+    </div>
+    <span
+      >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+      dolore eveniet repellendus, dolor at ex numquam praesentium blanditiis
+      doloremque. Architecto quibusdam neque reiciendis autem dicta pariatur,
+      explicabo tenetur ipsa voluptatum?</span
+    >
+  </body>
+</html>
